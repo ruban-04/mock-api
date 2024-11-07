@@ -8,22 +8,54 @@
 </head>
 
 <body> 
-    <form id="userForm">
+    
+    <form id="userForm"  >
         <h1>CRUD OPERATION</h1>
+        
+    <div>
+        <label for="username">Username</label>
         <input type="text" id="name" class="input-user" placeholder="Name" name="name"  />
         <div id="nameError"></div>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
         <input type="email" id="email" class="input-user" placeholder="Email" name="email"   />
         <div id="emailError"></div>
+    </div>
+
+    <div>
+        <label for="password">Password</label>
         <input type="password" id="password" class="input-user" placeholder="Password" name="email"  />
         <div id="passwordError"></div>
+
+    </div>
+
     <div>
         <button type="submit">Add User</button>
     </div>
     </form>
+
+    <div  id="print-table" style="margin-top: 4rem;" >
+        <table class="table table-bordered " style="text-align: center;">
+            <thead >
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+              
+            </tbody>
+        </table>
+    </div>
+
 <div id="message"></div>
 
     <ul id="userList"></ul>
-
+   
    
 </body> 
 <script src="index.js"></script>
