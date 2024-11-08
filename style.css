@@ -5,7 +5,7 @@ body{
 
     margin: 0;
 
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"  ;
+    /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"  ; */
 }
 
 #userForm{
@@ -13,28 +13,26 @@ body{
     width: 450px;
     margin: 10vh auto 0 auto;
     border-radius: 15px;
-    padding: 5px;
-   
-    
+    padding: 5px;   
 }
 h1{
     text-align: center;
 }
 #userForm input {
- margin-left: 30px;
+ margin-left: 40px;
  display: flex;
 }
 .input-user{
     margin: 10px;
     border-radius: 10px;
     width: 350px;
-    padding: 1.2rem;
+    padding: 0.7rem;
 }
 #userForm label{
     padding-left: 2rem;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     /* padding-top: 4rem; */
 }
 .message{
